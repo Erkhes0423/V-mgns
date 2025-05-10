@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+header {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+}
+
+.manga-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+.manga-card {
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #222;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
